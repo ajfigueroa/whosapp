@@ -4,21 +4,20 @@ Disclaimer: This is in no way associated with Whatsapp or Facebook.
 
 ## Motivation
 
-My Mother wanted to use Whatsapp on her iPad and if you go to `web.whatsapp.com`, you'll get redirected to the landing page of Whatsapp. You can hold the Refresh button and then tap `Request Desktop Site` but this won't stay if you leave it as a website bookmark on the Springboard.
+My Mother wanted to use Whatsapp on her iPad and if you go to `web.whatsapp.com`, you'll get redirected to the landing page of Whatsapp Web. You can hold the Refresh button and then tap `Request Desktop Site` which will bring you to the Desktop version of Whatsapp Web. Unfortunately, this won't be remembered on future visits.
 
-The user experience around having to constantly tap `Request Desktop Site` is not ideal. I took a look at the iPad apps that do something similar and they are full of ads or predatory tactics to get you to pay a heft subscription fee.
+The user experience around having to constantly tap `Request Desktop Site` is not ideal. I took a look at the iPad apps that do something similar and they are problematic. They are full of ads or introduce predatory tactics to get you to pay a hefty subscription fee via Biometrics.
 
-This project is meant to be an ad-free and unpredatory alternative to those apps in the App Store.
+This project is meant to be an ad-free and safer alternative to those apps in the App Store.
 
 ## Usage
 
 This app is targeting iOS devices on 12.1 and up.
-
-You'll also need Xcode 10 to install and run the app on a device.
+You'll also need Xcode 10 to install and run the app on a device (assuming you have registered as an Apple Developer).
 
 ## Screenshots
 
-This app is essentially a webview that opens `web.whatsapp.com` but uses a Desktop user agent to trick the website into thinking the User is on a Desktop instead of an iPad.
+This app is essentially a webview that opens `web.whatsapp.com` but uses a Desktop user agent to _trick_ the website into thinking the User is on a Desktop instead of an iPad.
 
 <img src="./Screenshots/ipad_screenshot.png" />
 

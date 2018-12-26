@@ -6,7 +6,7 @@ Disclaimer: This is in no way associated with Whatsapp or Facebook.
 
 My Mother wanted to use Whatsapp on her iPad and if you go to `web.whatsapp.com`, you'll get redirected to the landing page of Whatsapp Web. You can hold the Refresh button and then tap `Request Desktop Site` which will bring you to the Desktop version of Whatsapp Web. Unfortunately, this won't be remembered on future visits.
 
-The user experience around having to constantly tap `Request Desktop Site` is not ideal. I took a look at the iPad apps that do something similar and they are problematic. They are full of ads or introduce predatory tactics to get you to pay a hefty subscription fee via Biometrics.
+The user experience around having to constantly tap `Request Desktop Site` is not ideal. I took a look at the iPad apps that do something similar and they are problematic. They are full of ads or introduce predatory tactics to get you to pay a hefty subscription fee.
 
 This project is meant to be an ad-free and safer alternative to those apps in the App Store.
 

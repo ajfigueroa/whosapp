@@ -8,7 +8,8 @@ class WhatsappWebViewController: UIViewController {
         return webView
     }()
     private let activityIndicatorView = UIActivityIndicatorView(style: .gray)
-
+    private let activityIndicatorDiameter: CGFloat = 44
+    
     // MARK; - View Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,11 +22,12 @@ class WhatsappWebViewController: UIViewController {
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         webView.frame = view.bounds
-
-        var frame: CGRect = CGRect(x: 0, y: 0, width: 44, height: 44)
-        frame.origin.x = (view.bounds.width - frame.width) / 2
-        frame.origin.y = (view.bounds.height - frame.height) / 2
-        activityIndicatorView.frame = frame
+        activityIndicatorView.frame = CGRect(
+            x: (view.bounds.width - activityIndicatorDiameter) / 2,
+            y: (view.bound.height - activityIndicatorDiameter) / 2,
+            width: activityIndicatorDiameter,
+            height: activityIndicatorDiameter
+        )
     }
 
     // MARK: - Request Loading
